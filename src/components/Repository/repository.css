@@ -1,0 +1,24 @@
+.repository {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 20px;
+  height: 125px;
+  min-width: 190px;
+  background: rgb(28, 4, 15);
+  background: radial-gradient(circle, rgba(28, 4, 15, 1) 0%, rgba(2, 16, 33, 1) 100%);
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.repository h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.repository section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

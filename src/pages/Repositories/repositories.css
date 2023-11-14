@@ -1,0 +1,35 @@
+.repositories {
+  display: grid;
+  grid-template-rows: 150px 1fr;
+  gap: 50px;
+  height: 100%;
+  padding: 0 50px;
+}
+
+.repositories-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.repositories-header h1 {
+  flex: auto;
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.repositories-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 50px;
+}
+
+@media screen and (max-width: 520px) {
+  .repositories {
+    padding: 0 20px;
+  }
+  .repositories-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}

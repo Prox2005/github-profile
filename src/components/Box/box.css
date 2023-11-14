@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #030a13;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.box-stick {
+  height: 30px;
+  width: 2px;
+  background-color: grey;
+}
