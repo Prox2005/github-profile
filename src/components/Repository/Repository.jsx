@@ -10,7 +10,7 @@ const Repository = ({ name, url, watchers, forks }) => {
     // If you want to open the URL in the same tab, you can use: window.location.href = url;
   };
   return (
-    <a className="repository" href={url} onClick={handleClick}>
+    <a className="repository scale-up-right" href={url} onClick={handleClick}>
       <h2>{name}</h2>
       <section>
         <IoMdEye />
